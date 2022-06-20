@@ -1,0 +1,622 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* khi màn hình từ 1024-1439 thì đoạn code có tác dụng */
+@media only screen and (max-width: 1439px) and (min-width: 1024px){
+/* header */
+    .logo h2 {
+        font-size: 15px;
+    }
+    .item-menu a {
+        margin-right: 18px;
+        font-size: 12px;
+    }
+    .cart a {
+        font-size: 20px;
+    }
+    .container {
+        max-width: 900px;
+    }
+/* ads */
+    .ads1 h4 {
+        top: 250px;
+        left: 270px;
+        font-size: 23px;
+    }
+    .ads a button {
+        font-size: 12px;
+    }
+    .ads1 a {
+        top: 295px;
+        left: 420px;
+    }
+    .ads-block2 h4 ,.ads-block2 h2{
+        font-size: 15px;
+    }
+    .ads2 h4 {
+        top: 65px;
+        left: 45px;
+    }
+    .ads2 h2 {
+        top: 85px;
+        left: 45px;
+    }
+    .ads-block2 .ads3 {
+        margin-top: 20px;
+    }
+    .ads3 h4 {
+        top: 95px;
+        left: 30px;
+    }
+    .ads3 h2 {
+        top: 120px;
+        left: 30px;
+    }
+    .ads3 a {
+        top: 150px;
+        left: 30px;
+    }
+/* product */
+    .item-product .btn-add {
+        top: 213px;
+    }
+    .btn-add button {
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+/* blog */
+    .text-blog h3 {
+        font-size: 15px;
+    }
+/* footer */
+    .about-us {
+        width: 21%;
+    }
+    .about-us .icon-blog {
+        margin-top: 27px;
+    }
+    .address {
+        width: 21%;
+    }
+}
+/* tablet */
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+/* header */
+    .navigation {
+        position: relative;
+    }
+    .navigation .main-menu {
+        display: none;
+      } 
+    .navigation .menu-mobile{
+        display: block;
+      }
+      .navigation .menu-mobile {
+        position: absolute;
+        right: 30px;
+        top: 25px;
+        font-size: 30px;
+      }
+      .navigation .cart {
+        position: absolute;
+        right: 60px;
+        top: 25px;
+      }
+/* ads */
+    .container {
+        max-width: 700px;
+    }
+    .ads1 h4 {
+        top: 195px;
+        left: 205px;
+        font-size: 18px;
+    }
+    .ads a button {
+        font-size: 10px;
+    }
+    .ads1 a {
+        top: 230px;
+        left: 315px;
+    }
+    .ads-block2 {
+        margin-left: 25px;
+    }
+    .ads-block2 h4 ,.ads-block2 h2{
+        font-size: 13px;
+    }
+    .ads2 h4 {
+        top: 50px;
+        left: 33px;
+    }
+    .ads2 h2 {
+        top: 70px;
+        left: 33px;
+    }
+    .ads-block2 .ads3 {
+        margin-top: 14px;
+    }
+    .ads3 h4 {
+        top: 75px;
+        left: 25px;
+    }
+    .ads3 h2 {
+        top: 95px;
+        left: 25px;
+    }
+    .ads3 a {
+        top: 125px;
+        left: 25px;
+    }
+    /* product */
+    .products {
+        margin-top: 50px;
+    }
+    .main-product {
+        margin-top: 40px;
+    }
+    .item-product {
+        width: calc(25% - 20px);
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .item-product .btn-add {
+        top: 170px;
+    }
+    .btn-add button {
+        font-size: 9px;
+        padding: 4px 5px;
+    }
+    .name-product {
+        font-size: 13px;
+    }
+    div.stars {
+        font-size: 14px;
+    }
+    /* blog */
+    .date {
+        font-size: 10px;
+        left: 10px;
+        top: 10px;
+        width: 52px;
+        height: 52px;
+    }
+    .date-content{
+        width: 40px;
+        height: 40px;
+    }
+    /* footer */
+    .about-us {
+        width: 27%;
+    }
+    .about-us .icon-blog {
+        margin-top: 27px;
+    }
+    .address {
+        width: 26%;
+    }
+
+}
+@media only screen and (max-width: 767px) and (min-width: 425px){
+    /* header */
+    .shop-setting, .member-login {
+        display: none;
+    }
+    .top-menu .top-menu-mobile {
+        display: block;
+    }
+    .top-menu .top-menu-mobile {
+        font-size: 20px;
+        margin-right: 15px;
+        margin-top: 10px;
+        color: #fff;
+    }
+    .navigation {
+        display: flex;
+        justify-content: normal;
+    }
+    .logo h2 {
+      font-size: 14px;
+      letter-spacing: 6px;
+      padding: 10px 0 10px 6px;
+    }
+    .navigation .main-menu {
+        display: none;
+      } 
+    .navigation .menu-mobile{
+        display: block;
+        margin: auto 20px auto 0;
+        font-size: 20px;
+    }
+    .cart {
+        margin-left: auto;
+    }
+    .navigation .cart a {
+        margin: auto 25px auto 0;
+        font-size: 23px;
+    }
+    .container {
+        max-width: 400px;
+    }
+    /* ads */
+    .ads {
+        display: block;
+    }
+    .ads1 h4 {
+        top: 175px;
+        left: 185px;
+        font-size: 16px;
+    }
+    .ads a button {
+        font-size: 7px;
+    }
+    .ads1 a {
+        top: 205px;
+        left: 290px;
+    }
+    .ads2 {
+        margin-top: 10px;
+    }
+    .ads-block2 {
+        margin-left: 0px;
+    }
+    .ads-block2 h4 ,.ads-block2 h2{
+        font-size: 20px;
+    }
+    .ads2 h4 {
+        top: 90px;
+        left: 70px;
+    }
+    .ads2 h2 {
+        top: 120px;
+        left: 70px;
+    }
+    .ads-block2 .ads3 {
+        margin-top: 10px;
+    }
+    .ads3 h4 {
+        top: 120px;
+        left: 50px;
+    }
+    .ads3 h2 {
+        top: 150px;
+        left: 50px;
+    }
+    .ads3 a {
+        top: 185px;
+        left: 50px;
+    }
+    /* product */
+    .products {
+        margin-top: 25px;
+    }
+    .title h2 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .title hr {
+        margin-top: 17px;
+        width: 13%;
+    }
+    .main-product {
+        margin-top: 30px;
+    }
+    .item-product {
+        width: calc(50% - 20px);
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .item-product .btn-add {
+        top: 200px;
+    }
+    .btn-add button {
+        font-size: 12px;
+        padding: 4px 5px;
+    }
+    .name-product {
+        font-size: 13px;
+    }
+    div.stars {
+        font-size: 14px;
+    }
+    /* blog */
+    .blog {
+        margin-top: 0px;
+        height: 650px;
+    }
+    .content-blog {
+        padding-top: 35px;
+    }
+    /* footer */
+    .content-footer {
+        display: block; 
+        justify-content: normal; 
+        margin-bottom: 0px;
+    }
+    .about-us, .navigation-footer, .address {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .footer h2 {
+        padding-bottom: 10px;
+    }
+    .footer .about-us p, .menu-footer, .map {
+        margin-top: 20px;
+    }
+    .about-us .icon-blog {
+        margin: 20px 0;
+    }
+    .map br{
+        display: none;
+    }
+    .payment .fa-brands {
+        padding: 0px;
+    }
+}
+@media only screen and (max-width: 424px) and (min-width: 320px){
+    /* giống size 425 */
+    /* header */
+    .shop-setting, .member-login {
+        display: none;
+    }
+    .top-menu .top-menu-mobile {
+        display: block;
+    }
+    .top-menu .top-menu-mobile {
+        font-size: 20px;
+        margin-right: 15px;
+        margin-top: 10px;
+        color: #fff;
+    }
+    .navigation {
+        display: flex;
+        justify-content: normal;
+    }
+    .logo h2 {
+      font-size: 14px;
+      letter-spacing: 6px;
+      padding: 10px 0 10px 6px;
+    }
+    .navigation .main-menu {
+        display: none;
+      } 
+    .navigation .menu-mobile{
+        display: block;
+        margin: auto 20px auto 0;
+        font-size: 20px;
+    }
+    .cart {
+        margin-left: auto;
+    }
+    .navigation .cart a {
+        margin: auto 25px auto 0;
+        font-size: 23px;
+    }
+    .container {
+        max-width: 300px;
+    }
+   /* ads */
+    .ads {
+        display: block;
+    }
+    .ads1 h4 {
+        top: 130px;
+        left: 120px;
+        font-size: 14px;
+    }
+    .ads a button {
+        font-size: 7px;
+    }
+    .ads1 a {
+        top: 155px;
+        left: 205px;
+    }
+    .ads2 {
+        margin-top: 10px;
+    }
+    .ads-block2 {
+        margin-left: 0px;
+    }
+    .ads-block2 h4, .ads-block2 h2 {
+        font-size: 18px;
+    }
+    .ads2 h4 {
+        top: 70px;
+        left: 45px;
+    }
+    .ads2 h2 {
+        top: 95px;
+        left: 45px;
+    }
+    .ads-block2 .ads3 {
+        margin-top: 10px;
+    }
+    .ads3 h4 {
+        top: 120px;
+        left: 50px;
+    }
+    .ads3 h2 {
+        top: 150px;
+        left: 50px;
+    }
+    .ads3 a {
+        top: 185px;
+        left: 50px;
+    }
+    /* product */
+    .products {
+        margin-top: 25px;
+    }
+    .title h2 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .title hr {
+        margin-top: 17px;
+        width: 13%;
+    }
+    .main-product {
+        margin-top: 30px;
+    }
+    .item-product {
+        width: calc(50% - 20px);
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .item-product .btn-add {
+        top: 145px;
+    }
+    .btn-add button {
+        font-size: 8px;
+        padding: 5px 5px;
+    }
+    .name-product {
+        font-size: 12px;
+    }
+    div.stars {
+        font-size: 14px;
+    }
+    /* blog */
+    .blog {
+        margin-top: 0px;
+        /* height: 650px; */
+        /* display: none; */
+    
+    }
+    .content-blog {
+        padding-top: 35px;
+    }
+
+
+    /* .slider-blog .list-post {
+        display: flex;
+    }
+    .list-post .item {
+        width: 100% !important;
+        margin-left: 0px;
+    } */
+    .content-footer {
+        display: block; 
+        justify-content: normal; 
+        margin-bottom: 0px;
+    }
+    .about-us, .navigation-footer, .address {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .footer h2 {
+        padding-bottom: 10px;
+    }
+    .footer .about-us p, .menu-footer, .map {
+        margin-top: 20px;
+    }
+    .about-us .icon-blog {
+        margin: 20px 0;
+    }
+    .map br{
+        display: none;
+    }
+    .copyright .content-copy {
+        display: block;
+    }    
+    .copyright .text-copy {
+        margin: 10px 0;
+    }
+    .payment .fa-brands {
+        padding: 0px;
+    }
+    
+}
+/* @media only screen and (max-width: 374px) and (min-width: 320px){
+   
+    .shop-setting, .member-login {
+        display: none;
+    }
+    .top-menu .top-menu-mobile {
+        display: block;
+    }
+    .top-menu .top-menu-mobile {
+        font-size: 20px;
+        margin-right: 15px;
+        margin-top: 10px;
+        color: #fff;
+    }
+    .navigation {
+        display: flex;
+        justify-content: normal;
+    }
+    .logo h2 {
+      font-size: 14px;
+      letter-spacing: 6px;
+      padding: 10px 0 10px 6px;
+    }
+    .navigation .main-menu {
+        display: none;
+      } 
+    .navigation .menu-mobile{
+        display: block;
+        margin: auto 20px auto 0;
+        font-size: 20px;
+    }
+    .cart {
+        margin-left: auto;
+    }
+    .navigation .cart a {
+        margin: auto 25px auto 0;
+        font-size: 23px;
+    }
+    .container {
+        max-width: 300px;
+    }
+
+    .ads {
+        display: block;
+    }
+    .ads1 h4 {
+        top: 130px;
+        left: 120px;
+        font-size: 14px;
+    }
+    .ads a button {
+        font-size: 7px;
+    }
+    .ads1 a {
+        top: 155px;
+        left: 205px;
+    }
+    .ads2 {
+        margin-top: 10px;
+    }
+    .ads-block2 {
+        margin-left: 0px;
+    }
+    .ads-block2 h4, .ads-block2 h2 {
+        font-size: 18px;
+    }
+    .ads2 h4 {
+        top: 70px;
+        left: 45px;
+    }
+    .ads2 h2 {
+        top: 95px;
+        left: 45px;
+    }
+    .ads-block2 .ads3 {
+        margin-top: 10px;
+    }
+    .ads3 h4 {
+        top: 120px;
+        left: 50px;
+    }
+    .ads3 h2 {
+        top: 150px;
+        left: 50px;
+    }
+    .ads3 a {
+        top: 185px;
+        left: 50px;
+    }
+} */

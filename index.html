@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="./asset/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="./asset/fontawesome-free-5.15.4-web/css/all.css" />
+    <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'> -->
+    <link rel="stylesheet" href="./asset/slick/slick.css">
+    <link rel="stylesheet" href="./asset/slick/slick-theme.css">
+    
+    <!-- font -->
+    
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+<!-- begin header -->
+        <div id="header">
+            <div class="top-menu">
+                <div class="wellcome">
+                    <i class="fa-regular fa-bookmark"></i>
+                    <h4 class="text-welcome"> 
+                        Welcome to Franco - an e-Commerce PSD Template!</h4>
+                </div>
+
+                <div class="shop-setting">
+                    <a href=""> 
+                        <i class="fa-solid fa-gear"></i>
+                        <h4>Shop Setting</h4>
+                    </a>
+                </div>
+                <div class="member-login">
+                    <a href=""> 
+                        <i class="fa-solid fa-lock"></i>
+                        <h4>Member Login</h4>
+                    </a>
+                </div>
+<!-- 3 chấm top menu -->
+                <label for="top-menu-mobie-input" class="top-menu-mobile">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </label>
+                <input type="checkbox" hidden id="top-menu-mobie-input" >
+                <div class="top-main-menu-mobie">
+                    <ul class="top-menu-mobile-list">
+                        <li>
+                            <a href=""> 
+                                <i class="fa-solid fa-gear"></i>
+                                <h4>Shop Setting</h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""> 
+                                <i class="fa-solid fa-lock"></i>
+                                <h4>Member Login</h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <div class="logo">
+                    <h2>Franco</h2>
+                </div>
+                <div class="main-menu">
+                    <ul class="list-menu">
+                        <li class="item-menu"><a href=""><h3>home</h3> </a> </li>
+                        <li class="item-menu"><a href=""><h3>woman</h3> </a> </li>
+                        <li class="item-menu"><a href=""><h3>men</h3> </a> </li>
+                        <li class="item-menu"><a href=""><h3>about us</h3> </a> </li>
+                        <li class="item-menu"><a href=""><h3>blog</h3> </a> </li>
+                        <li class="item-menu"><a href=""><h3>conllections</h3> </a> </li>
+                        <li class="item-menu"><a href=""><h3>contact</h3> </a> </li>
+                        <li class="item-menu"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a> </li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+<!-- 3 chấm menu nav -->
+                <label for="menu-mobie-input" class="menu-mobile">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <!-- input -->
+                <input type="checkbox" hidden id="menu-mobie-input" >
+                <!-- lớp phủ mờ -->
+                <label for="menu-mobie-input" class="menu-overlay"></label>
+                <!-- nội dung menu -->
+                <div class="main-menu-mobie">
+                    <label for="menu-mobie-input" class="close-menu">
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </label>
+                    <ul class="menu-mobie-list">
+                        <li><a href="">home</a> </li>
+                        <li><a href="">woman</a> </li>
+                        <li><a href="">men</a> </li>
+                        <li><a href="">about us</a> </li>
+                        <li><a href="">blog</a> </li>
+                        <li><a href="">conllections</a> </li>
+                        <li><a href="">contact</a> </li>
+                        <li><a href="">Search</a></li>
+                        <li><a href="">Shop Setting</a></li>
+                        <li><a href="">Member Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end header -->
+
+        <!-- begin ads -->
+        
+        <div class="ads container">
+            <div class="ads-block1">
+                <div class="ads1">
+                    <img src="./asset/image/ads01.jpg" alt="ads1">
+                    <h4>Two High end Materials</h4>
+                    <a href=""><button>Shop Now</button></a>
+                </div>
+            </div>
+            <div class="ads-block2">
+                <div class="ads2">
+                    <img src="./asset/image/ads02.jpg" alt="ads2" >
+                    <h4>small thing</h4> 
+                    <h2>make different</h2>                  
+                </div>
+                <div class="ads3">
+                    <img src="./asset/image/ads03.jpg" alt="ads3" >
+                    <h4>folio</h4>
+                    <h2>backpack</h2>
+                    <a href=""><button>Shop Now</button></a>
+                </div>
+            </div>
+            
+        </div>
+        <!-- end ads -->
+
+        <!-- begin products -->
+        <div class="products container">
+            <div class="title-product title">
+                <h5>franco</h5>
+                <h2>Featured items</h2>
+                <hr>
+            </div>
+            <div class="main-product">
+                <ul class="list-product">
+                    <li class="item-product">
+                        <img src="./asset/image/product01.jpg" alt="img1">
+                        <a class="btn-add" href=""><button>add to cart</button></a>
+                        <a class="name-product" href=""><h4>Suspendise id volutpat</h4></a>
+                        <div class="stars">
+                                <form action="">
+                                  <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-1"></label> 
+                                  <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-2"></label>
+                                  <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-3"></label>
+                                  <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-4"></label>
+                                  <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-5"></label>
+                                </form>
+                        </div>
+                        <div class="price"> <del>$99.00</del> <ins>$84.00</ins></div>
+                    </li>
+
+                    <li class="item-product">
+                        <img src="./asset/image/product02.jpg" alt="img2">
+                        <a class="btn-add" href=""><button>add to cart</button></a>
+                        <a class="name-product" href=""><h4>Lorem ispum dolor</h4></a>
+                        <div class="stars">
+                                <form action="">
+                                  <input class="star star-1" id="star-11" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-11"></label> 
+                                  <input class="star star-2" id="star-12" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-12"></label>
+                                  <input class="star star-3" id="star-13" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-13"></label>
+                                  <input class="star star-4" id="star-14" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-14"></label>
+                                  <input class="star star-5" id="star-15" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-15"></label>
+                                </form>
+                        </div>
+                        <div class="price"> <del>$99.00</del> <ins>$84.00</ins></div>
+                    </li>
+
+                    <li class="item-product">
+                        <img src="./asset/image/product03.jpg" alt="img3">
+                        <a class="btn-add" href=""><button>add to cart</button></a>
+                        <a class="name-product" href=""><h4>Proin sed nulla mi</h4></a>
+                        <div class="stars">
+                                <form action="">
+                                  <input class="star star-1" id="star-21" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-21"></label> 
+                                  <input class="star star-2" id="star-22" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-22"></label>
+                                  <input class="star star-3" id="star-23" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-23"></label>
+                                  <input class="star star-4" id="star-24" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-24"></label>
+                                  <input class="star star-5" id="star-25" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-25"></label>
+                                </form>
+                        </div>
+                        <div class="price"><ins>$84.00</ins></div>
+                    </li>
+
+                    <li class="item-product">
+                        <img src="./asset/image/product04.jpg" alt="img4">
+                        <a class="btn-add" href=""><button>add to cart</button></a>
+                        <a class="name-product" href=""><h4>Aenean placerat</h4></a>
+                        <div class="stars">
+                                <form action="">
+                                  <input class="star star-1" id="star-31" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-31"></label> 
+                                  <input class="star star-2" id="star-32" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-32"></label>
+                                  <input class="star star-3" id="star-33" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-33"></label>
+                                  <input class="star star-4" id="star-34" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-34"></label>
+                                  <input class="star star-5" id="star-35" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-35"></label>
+                                </form>
+                        </div>
+                        <div class="price"> <del>$99.00</del> <ins>$84.00</ins></div>
+                    </li>
+                    <!-- row 2 -->
+                    <li class="item-product">
+                        <img src="./asset/image/product05.jpg" alt="img5">
+                        <a class="btn-add" href=""><button>add to cart</button></a>
+                        <a class="name-product" href=""><h4>Suspendise id volutpat</h4></a>
+                        <div class="stars">
+                                <form action="">
+                                  <input class="star star-1" id="star-41" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-41"></label> 
+                                  <input class="star star-2" id="star-42" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-42"></label>
+                                  <input class="star star-3" id="star-43" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-43"></label>
+                                  <input class="star star-4" id="star-44" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-44"></label>
+                                  <input class="star star-5" id="star-45" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-45"></label>
+                                </form>
+                        </div>
+                        <div class="price"> <del>$99.00</del> <ins>$84.00</ins></div>
+                    </li>
+
+                    <li class="item-product">
+                        <img src="./asset/image/product06.jpg" alt="img6">
+                        <a class="btn-add" href=""><button>add to cart</button></a>
+                        <a class="name-product" href=""><h4>Lorem ispum dolor</h4></a>
+                        <div class="stars">
+                                <form action="">
+                                  <input class="star star-1" id="star-51" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-51"></label> 
+                                  <input class="star star-2" id="star-52" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-52"></label>
+                                  <input class="star star-3" id="star-53" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-53"></label>
+                                  <input class="star star-4" id="star-54" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-54"></label>
+                                  <input class="star star-5" id="star-55" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-55"></label>
+                                </form>
+                        </div>
+                        <div class="price"> <del>$99.00</del> <ins>$84.00</ins></div>
+                    </li>
+
+                    <li class="item-product">
+                        <img src="./asset/image/product07.jpg" alt="img7">
+                        <a class="btn-add" href=""><button>add to cart</button></a>
+                        <a class="name-product" href=""><h4>Proin sed nulla mi</h4></a>
+                        <div class="stars">
+                                <form action="">
+                                  <input class="star star-1" id="star-61" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-61"></label> 
+                                  <input class="star star-2" id="star-62" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-62"></label>
+                                  <input class="star star-3" id="star-63" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-63"></label>
+                                  <input class="star star-4" id="star-64" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-64"></label>
+                                  <input class="star star-5" id="star-65" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-65"></label>
+                                </form>
+                        </div>
+                        <div class="price"><ins>$84.00</ins></div>
+                    </li>
+
+                    <li class="item-product">
+                        <img src="./asset/image/product08.jpg" alt="img8">
+                        <a class="btn-add" href=""><button>add to cart</button></a>
+                        <a class="name-product" href=""><h4>Aenean placerat</h4></a>
+                        <div class="stars">
+                                <form action="">
+                                  <input class="star star-1" id="star-71" type="radio" name="star"/>
+                                  <label class="star star-1" for="star-71"></label> 
+                                  <input class="star star-2" id="star-72" type="radio" name="star"/>
+                                  <label class="star star-2" for="star-72"></label>
+                                  <input class="star star-3" id="star-73" type="radio" name="star"/>
+                                  <label class="star star-3" for="star-73"></label>
+                                  <input class="star star-4" id="star-74" type="radio" name="star"/>
+                                  <label class="star star-4" for="star-74"></label>
+                                  <input class="star star-5" id="star-75" type="radio" name="star"/>
+                                  <label class="star star-5" for="star-75"></label>
+                                </form>
+                        </div>
+                        <div class="price"> <del>$99.00</del> <ins>$84.00</ins></div>
+                    </li>    
+                </ul>
+            </div>
+        </div>
+        <!-- end products -->
+
+        <!-- begin blog -->
+        <div class="blog">
+            <div class="content-blog container">
+                <div class="title-blog title">
+                    <h5>latest</h5>
+                    <h2>news & events</h2>
+                    <hr>
+                </div>
+                <div class="slider-blog">
+                    <ul class="list-post slider1">
+                        <li class="item post1">
+                            <a href=""><img src="./asset/image/blog01.jpg" alt="blog1"></a>
+                            <div class="date">
+                                <div class="date-content">
+                                    <h4 class="month">Jan</h4>
+                                    <h4 class="day">23</h4>
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h3>In commodo dolor vitae</h3>
+                                <p>Aliquam tempor sagitis neque, vel aliquam risus consectetur vel.
+                                Aenenan hendrerit, elit a lacinia suscipit, orci mauris.
+                                </p>
+                            </div>
+                            
+                            <div class="info">
+                                <div class="commnent">
+                                    <a href=""><i class="far fa-comment"></i></a>
+                                    <h6 class="number-comment">12</h6>
+                                </div>
+                                <div class="like">
+                                    <i class="far fa-heart"></i>
+                                    <h6 class="number-like">6</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item post2">
+                            <a href=""><img src="./asset/image/blog02.jpg" alt="blog2"></a>
+                            <div class="date">
+                                <div class="date-content">
+                                    <h4 class="month">Jan</h4>
+                                    <h4 class="day">23</h4>
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h3>Vivamus non dignissim elit</h3>
+                                <p>Aliquam tempor sagitis neque, vel aliquam risus consectetur vel.
+                                    Aenenan hendrerit, elit a lacinia suscipit, orci mauris.
+                                </p>
+                            </div>
+                            
+                            <div class="info">
+                                <div class="commnent">
+                                    <a href=""><i class="far fa-comment"></i></a>
+                                    <h6 class="number-comment">12</h6>
+                                </div>
+                                <div class="like">
+                                    <i class="far fa-heart"></i>
+                                    <h6 class="number-like">6</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item post3">
+                            <a href=""><img src="./asset/image/blog03.jpg" alt="blog3"></a>
+                            <div class="date">
+                                <div class="date-content">
+                                    <h4 class="month">Jan</h4>
+                                    <h4 class="day">23</h4>
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h3>Ut lacinia erat ut diam volutpat</h3>
+                                <p>Aliquam tempor sagitis neque, vel aliquam risus consectetur vel.
+                                    Aenenan hendrerit, elit a lacinia suscipit, orci mauris.
+                                </p>
+                            </div>
+                            
+                            <div class="info">
+                                <div class="commnent">
+                                    <a href=""><i class="far fa-comment"></i></a>
+                                    <h6 class="number-comment">12</h6>
+                                </div>
+                                <div class="like">
+                                    <i class="far fa-heart"></i>
+                                    <h6 class="number-like">6</h6>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- chay -->
+                        <li class="item post4">
+                            <a href=""><img src="./asset/image/blog01.jpg" alt="blog1"></a>
+                            <div class="date">
+                                <div class="date-content">
+                                    <h4 class="month">Jan</h4>
+                                    <h4 class="day">23</h4>
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h3>In commodo dolor vitae</h3>
+                                <p>Aliquam tempor sagitis neque, vel aliquam risus consectetur vel.
+                                Aenenan hendrerit, elit a lacinia suscipit, orci mauris.
+                                </p>
+                            </div>
+                            
+                            <div class="info">
+                                <div class="commnent">
+                                    <a href=""><i class="far fa-comment"></i></a>
+                                    <h6 class="number-comment">12</h6>
+                                </div>
+                                <div class="like">
+                                    <i class="far fa-heart"></i>
+                                    <h6 class="number-like">6</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item post5">
+                            <a href=""><img src="./asset/image/blog02.jpg" alt="blog2"></a>
+                            <div class="date">
+                                <div class="date-content">
+                                    <h4 class="month">Jan</h4>
+                                    <h4 class="day">23</h4>
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h3>Vivamus non dignissim elit</h3>
+                                <p>Aliquam tempor sagitis neque, vel aliquam risus consectetur vel.
+                                    Aenenan hendrerit, elit a lacinia suscipit, orci mauris.
+                                </p>
+                            </div>
+                            
+                            <div class="info">
+                                <div class="commnent">
+                                    <a href=""><i class="far fa-comment"></i></a>
+                                    <h6 class="number-comment">12</h6>
+                                </div>
+                                <div class="like">
+                                    <i class="far fa-heart"></i>
+                                    <h6 class="number-like">6</h6>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item post6">
+                            <a href=""><img src="./asset/image/blog03.jpg" alt="blog3"></a>
+                            <div class="date">
+                                <div class="date-content">
+                                    <h4 class="month">Jan</h4>
+                                    <h4 class="day">23</h4>
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h3>Ut lacinia erat ut diam volutpat</h3>
+                                <p>Aliquam tempor sagitis neque, vel aliquam risus consectetur vel.
+                                    Aenenan hendrerit, elit a lacinia suscipit, orci mauris.
+                                </p>
+                            </div>
+                            
+                            <div class="info">
+                                <div class="commnent">
+                                    <a href=""><i class="far fa-comment"></i></a>
+                                    <h6 class="number-comment">12</h6>
+                                </div>
+                                <div class="like">
+                                    <i class="far fa-heart"></i>
+                                    <h6 class="number-like">6</h6>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                   
+                </div>
+                
+                <!-- <div class="dot">
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                </div> -->
+            </div>
+            
+        </div>
+        <!-- end blog -->
+
+        <!-- begin footer -->
+        <div class="footer">
+            <div class="content-footer container">
+                <div class="about-us">
+                    <h2>About Franco</h2>
+                    <p>Aliquam tempor sagittis neque, vel aliquam risus consectetur vel.
+                        Aenean hendrerit, elit a lacinia suscipit, orci mauris vulputate mi,
+                        eu interdum nunc diam at ispum.
+                    </p>
+                    <div class="icon-blog">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-behance"></i></a>
+                        <a href=""><i class="fa-solid fa-basketball"></i></a>
+                    </div>
+                </div>
+                <div class="navigation-footer">
+                    <h2>Navigation</h2>
+                    <div class="menu-footer">
+                        <ul class="column">
+                            <li><a href="">Home</a> </li>
+                            <li><a href="">About Us</a> </li>
+                            <li><a href="">Our Blog</a> </li>
+                            <li><a href="">Women</a> </li>
+                            <li><a href="">Men</a> </li>
+                            <li><a href="">Contact Us</a> </li>
+                        </ul>
+                        <ul class="column">
+                            <li><a href="">FAQs</a> </li>
+                            <li><a href="">Featured Brands</a> </li>
+                            <li><a href="">Gift Vouchers</a> </li>
+                            <li><a href="">Affiliates</a> </li>
+                            <li><a href="">Specials Gift</a> </li>
+                            <li><a href="">Terms & Conditions</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="address">
+                    <h2>Shop Location</h2>
+                    <div class="map">
+                        <a href=""><i class="fa-regular fa-map"></i></a>
+                        <p> 500 Hennessy Road<br>
+                            Causeway Bay, Hong Kong
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <a href=""><i class="fa-solid fa-phone"></i></a>
+                        <p>+1 23456789</p>
+                    </div>
+                    <div class="mail">
+                        <a href=""><i class="fa-regular fa-envelope"></i></a>
+                        <p>contact@yourdomain.com</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <div class="content-copy container">
+                    <div class="text-copy">
+                        <i class="fa-regular fa-copyright"></i>
+                        <h5>Copyright 2015 & Made with</h5> 
+                        <i class="fa-solid fa-heart"></i>
+                        <h5> by </h5> 
+                        <a href="https://www.arrowhitech.com/"> ArrowHitech</a>
+                    </div>
+
+                    <div class="payment">
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-cc-discover"></i>
+                        <i class="fa-brands fa-cc-amex"></i>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- end footer -->
+    </div>
+    <script src="https://kit.fontawesome.com/6527f591b4.js" crossorigin="anonymous"></script>
+    <script src="./asset/js/jquery-3.6.0.min.js"></script>
+    <script src="./asset/slick/slick.min.js"></script>
+    <script src="./asset/js/custom-js.js"></script>
+
+</body>
+</html>
