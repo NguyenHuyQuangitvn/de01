@@ -19,7 +19,7 @@ a{
     display: flex;
     font-size: 14px;
     color: rgb(82, 82, 82);
-    font-family: "OpenSans";
+
 }
 .top-menu .wellcome{
     margin: auto 0 auto 30px;
@@ -27,7 +27,8 @@ a{
 }
 .top-menu h4{
     margin-left: 5px;
-    line-height: 1.2; 
+    line-height: 1.2;
+    font-family: "OpenSans";
 }
 .shop-setting, .member-login{
     margin: auto 30px auto 0;
@@ -90,22 +91,22 @@ a{
     max-width: 1140px;
     margin: 0 auto;
 }
-/* ads */
-.ads{
+/* banner */
+.banner{
     margin-top: 30px;
     display: flex;
     width: 100%;
 }
-.ads1, .ads2, .ads3{
+.banner1, .banner2, .banner3{
     position: relative;
 }
-.ads img{
+.banner img{
     width: 100%;
 }
-.ads h4,.ads h2, .ads a{
+.banner h4,.banner h2, .banner a{
     position: absolute;
 }
-.ads1 h4{
+.banner1 h4{
     top: 320px;
     left: 345px;
     font-size: 30px;
@@ -113,7 +114,7 @@ a{
     color: rgb(0, 0, 0);
     line-height: 1.2;
 }
-.ads a button{
+.banner a {
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
@@ -123,49 +124,50 @@ a{
     padding: 10px 14px;
     border: none;
 }
-.ads1 a{
+.banner1 a{
     top: 365px;
     left: 550px;
+
 }
-.ads-block2{
+.banner-block2{
     margin-left: 30px;
 }
-.ads-block2 .ads3{
+.banner-block2 .banner3{
     margin-top: 26px;
 }
-.ads-block2 h2, .ads-block2 h4{
+.banner-block2 h2, .banner-block2 h4{
     font-family: "Montserrat";
     text-transform: uppercase;
     line-height: 1.2;
 }
-.ads-block2 h2{
+.banner-block2 h2{
     font-size: 20px;
     color: #000;
     font-weight: bold;
 }
-.ads-block2 h4{
+.banner-block2 h4{
     font-size: 16px;
     color: rgb(97, 97, 97);
     font-weight: 200;
 }
-.ads2 h4{
+.banner2 h4{
     top: 88px;
     left: 57px;
     font-weight: 200;
 }
-.ads2 h2{
+.banner2 h2{
     top: 109px;
     left: 57px;
 }
-.ads3 h4{
+.banner3 h4{
     top: 120px;
     left: 40px;
 }
-.ads3 h2{
+.banner3 h2{
     top: 143px;
     left: 40px;
 }
-.ads3 a{
+.banner3 a{
     top: 175px;
     left: 40px;
 }
@@ -222,17 +224,16 @@ a{
     position: absolute;
     top: 280px;
     left: 5px;
-}
-.btn-add button{
     font-size: 12px;
     font-family: "Montserrat";
     color: rgb(66, 66, 66);
     text-transform: uppercase;
     line-height: 2.167;
-    padding: 5px 14px;
+    padding: 6px 15px;
     background-color: rgb(255, 255, 255);
     border: none;
 }
+
 .name-product{
     font-size: 14px;
     font-family: "Montserrat";
@@ -355,7 +356,7 @@ div.stars {
 .text-blog {
     margin-left: 20px;
 }
-.text-blog h3{
+.text-blog a{
     font-size: 16px;
     font-family: "Montserrat";
     color: rgb(0, 0, 0);
@@ -377,16 +378,21 @@ div.stars {
 .commnent, .like{
     display: flex;
     padding-right: 30px;
-    color: rgb(192, 192, 192);
 }
-.commnent a{
+.commnent a, .like a{
     color: rgb(192, 192, 192);
 }
 .info .far {
     font-size: 14px;
     line-height: 1.571;
-    transform: translateY(-5px);
+   /*  transform: translateY(-5px); */
     margin-right: 5px;
+}
+.info h6{
+    font-size: 14px;
+    font-family: "OpenSans", sans-serif;
+    line-height: 1.571;
+    font-weight: 400;
 }
 /* footer */
 .footer{
@@ -502,9 +508,15 @@ div.stars {
   margin-left: 5px;
   transform: translateY(-2px);
 }
+.payment {
+    display: flex;
+}
 .payment .fa-brands{
     padding: 5px;
     color: #888888;
+  }
+  .payment .fa-brands:hover{
+    color: #FFF;
   }
 /* nút menu nav */
 .navigation .menu-mobile{

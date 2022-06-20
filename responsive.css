@@ -19,53 +19,52 @@
     .container {
         max-width: 900px;
     }
-/* ads */
-    .ads1 h4 {
-        top: 250px;
-        left: 270px;
-        font-size: 23px;
+/* banner */
+    .banner1 h4 {
+        top: 253px;
+        left: 262px;
+        font-size: 24px;
     }
-    .ads a button {
-        font-size: 12px;
+    .banner a {
+        font-size: 10px;
     }
-    .ads1 a {
-        top: 295px;
-        left: 420px;
+    .banner1 a {
+        top: 290px;
+        left: 430px;
     }
-    .ads-block2 h4 ,.ads-block2 h2{
+    .banner-block2 h4 ,.banner-block2 h2{
         font-size: 15px;
     }
-    .ads2 h4 {
+    .banner2 h4 {
         top: 65px;
         left: 45px;
     }
-    .ads2 h2 {
+    .banner2 h2 {
         top: 85px;
         left: 45px;
     }
-    .ads-block2 .ads3 {
+    .banner-block2 .banner3 {
         margin-top: 20px;
     }
-    .ads3 h4 {
+    .banner3 h4 {
         top: 95px;
         left: 30px;
     }
-    .ads3 h2 {
+    .banner3 h2 {
         top: 120px;
         left: 30px;
     }
-    .ads3 a {
+    .banner3 a {
         top: 150px;
         left: 30px;
     }
 /* product */
     .item-product .btn-add {
-        top: 213px;
-    }
-    .btn-add button {
         font-size: 11px;
         padding: 4px 10px;
+        top: 213px;
     }
+    
 /* blog */
     .text-blog h3 {
         font-size: 15px;
@@ -104,49 +103,50 @@
         right: 60px;
         top: 25px;
       }
-/* ads */
+/* banner */
     .container {
         max-width: 700px;
     }
-    .ads1 h4 {
+    .banner a {
+        font-size: 10px;    
+        padding: 9px 10px;   
+    }
+    .banner1 h4 {
         top: 195px;
         left: 205px;
         font-size: 18px;
     }
-    .ads a button {
-        font-size: 10px;
+    .banner1 a {
+        top: 228px;
+        left: 323px;
     }
-    .ads1 a {
-        top: 230px;
-        left: 315px;
-    }
-    .ads-block2 {
+    .banner-block2 {
         margin-left: 25px;
     }
-    .ads-block2 h4 ,.ads-block2 h2{
+    .banner-block2 h4 ,.banner-block2 h2{
         font-size: 13px;
     }
-    .ads2 h4 {
+    .banner2 h4 {
         top: 50px;
         left: 33px;
     }
-    .ads2 h2 {
+    .banner2 h2 {
         top: 70px;
         left: 33px;
     }
-    .ads-block2 .ads3 {
+    .banner-block2 .banner3 {
         margin-top: 14px;
     }
-    .ads3 h4 {
+    .banner3 h4 {
         top: 75px;
         left: 25px;
     }
-    .ads3 h2 {
-        top: 95px;
+    .banner3 h2 {
+        top: 92px;
         left: 25px;
     }
-    .ads3 a {
-        top: 125px;
+    .banner3 a {
+        top: 120px;
         left: 25px;
     }
     /* product */
@@ -162,11 +162,14 @@
         margin-left: 10px;
     }
     .item-product .btn-add {
-        top: 170px;
+        top: 166px;
+        padding: 5px 7px;
+        font-size: 9px;
     }
     .btn-add button {
         font-size: 9px;
         padding: 4px 5px;
+        
     }
     .name-product {
         font-size: 13px;
@@ -239,51 +242,52 @@
     .container {
         max-width: 400px;
     }
-    /* ads */
-    .ads {
+    /* banner */
+    .banner {
         display: block;
     }
-    .ads1 h4 {
+    .banner1 h4 {
         top: 175px;
-        left: 185px;
-        font-size: 16px;
+        left: 170px;
+        font-size: 18px;
     }
-    .ads a button {
+    .banner a button {
         font-size: 7px;
     }
-    .ads1 a {
+    .banner1 a {
         top: 205px;
-        left: 290px;
+        left: 270px;
+        font-size: 12px;
     }
-    .ads2 {
+    .banner2 {
         margin-top: 10px;
     }
-    .ads-block2 {
+    .banner-block2 {
         margin-left: 0px;
     }
-    .ads-block2 h4 ,.ads-block2 h2{
+    .banner-block2 h4 ,.banner-block2 h2{
         font-size: 20px;
     }
-    .ads2 h4 {
+    .banner2 h4 {
         top: 90px;
         left: 70px;
     }
-    .ads2 h2 {
+    .banner2 h2 {
         top: 120px;
         left: 70px;
     }
-    .ads-block2 .ads3 {
+    .banner-block2 .banner3 {
         margin-top: 10px;
     }
-    .ads3 h4 {
+    .banner3 h4 {
         top: 120px;
         left: 50px;
     }
-    .ads3 h2 {
+    .banner3 h2 {
         top: 150px;
         left: 50px;
     }
-    .ads3 a {
+    .banner3 a {
         top: 185px;
         left: 50px;
     }
@@ -351,8 +355,15 @@
     .map br{
         display: none;
     }
+    .copyright .content-copy {
+        display: block;
+    }
+    .copyright .text-copy {
+        margin-top: 10px;
+    }
     .payment .fa-brands {
-        padding: 0px;
+        padding: 0;
+        margin-right: 10px;
     }
 }
 @media only screen and (max-width: 424px) and (min-width: 320px){
@@ -397,53 +408,54 @@
     .container {
         max-width: 300px;
     }
-   /* ads */
-    .ads {
+   /* banner */
+    .banner {
         display: block;
     }
-    .ads1 h4 {
+    .banner1 h4 {
         top: 130px;
         left: 120px;
         font-size: 14px;
     }
-    .ads a button {
+    .banner a button {
         font-size: 7px;
     }
-    .ads1 a {
+    .banner1 a {
         top: 155px;
-        left: 205px;
+        left: 186px;
+        font-size: 10px;
     }
-    .ads2 {
+    .banner2 {
         margin-top: 10px;
     }
-    .ads-block2 {
+    .banner-block2 {
         margin-left: 0px;
     }
-    .ads-block2 h4, .ads-block2 h2 {
+    .banner-block2 h4, .banner-block2 h2 {
         font-size: 18px;
     }
-    .ads2 h4 {
+    .banner2 h4 {
         top: 70px;
         left: 45px;
     }
-    .ads2 h2 {
+    .banner2 h2 {
         top: 95px;
         left: 45px;
     }
-    .ads-block2 .ads3 {
+    .banner-block2 .banner3 {
         margin-top: 10px;
     }
-    .ads3 h4 {
-        top: 120px;
-        left: 50px;
+    .banner3 h4 {
+        top: 100px;
+        left: 40px;
     }
-    .ads3 h2 {
-        top: 150px;
-        left: 50px;
+    .banner3 h2 {
+        top: 125px;
+        left: 40px;
     }
-    .ads3 a {
-        top: 185px;
-        left: 50px;
+    .banner3 a {
+        top: 165px;
+        left: 40px;
     }
     /* product */
     .products {
@@ -466,7 +478,9 @@
         margin-left: 10px;
     }
     .item-product .btn-add {
-        top: 145px;
+        top: 147px;
+        font-size: 8px;
+        padding: 5px 5px;
     }
     .btn-add button {
         font-size: 8px;
@@ -526,97 +540,11 @@
         margin: 10px 0;
     }
     .payment .fa-brands {
+        padding: 0;
+        margin-right: 10px;
+    }
+    .payment .fa-brands {
         padding: 0px;
     }
     
 }
-/* @media only screen and (max-width: 374px) and (min-width: 320px){
-   
-    .shop-setting, .member-login {
-        display: none;
-    }
-    .top-menu .top-menu-mobile {
-        display: block;
-    }
-    .top-menu .top-menu-mobile {
-        font-size: 20px;
-        margin-right: 15px;
-        margin-top: 10px;
-        color: #fff;
-    }
-    .navigation {
-        display: flex;
-        justify-content: normal;
-    }
-    .logo h2 {
-      font-size: 14px;
-      letter-spacing: 6px;
-      padding: 10px 0 10px 6px;
-    }
-    .navigation .main-menu {
-        display: none;
-      } 
-    .navigation .menu-mobile{
-        display: block;
-        margin: auto 20px auto 0;
-        font-size: 20px;
-    }
-    .cart {
-        margin-left: auto;
-    }
-    .navigation .cart a {
-        margin: auto 25px auto 0;
-        font-size: 23px;
-    }
-    .container {
-        max-width: 300px;
-    }
-
-    .ads {
-        display: block;
-    }
-    .ads1 h4 {
-        top: 130px;
-        left: 120px;
-        font-size: 14px;
-    }
-    .ads a button {
-        font-size: 7px;
-    }
-    .ads1 a {
-        top: 155px;
-        left: 205px;
-    }
-    .ads2 {
-        margin-top: 10px;
-    }
-    .ads-block2 {
-        margin-left: 0px;
-    }
-    .ads-block2 h4, .ads-block2 h2 {
-        font-size: 18px;
-    }
-    .ads2 h4 {
-        top: 70px;
-        left: 45px;
-    }
-    .ads2 h2 {
-        top: 95px;
-        left: 45px;
-    }
-    .ads-block2 .ads3 {
-        margin-top: 10px;
-    }
-    .ads3 h4 {
-        top: 120px;
-        left: 50px;
-    }
-    .ads3 h2 {
-        top: 150px;
-        left: 50px;
-    }
-    .ads3 a {
-        top: 185px;
-        left: 50px;
-    }
-} */
