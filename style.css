@@ -28,7 +28,8 @@ a{
 .top-menu h4{
     margin-left: 5px;
     line-height: 1.2;
-    font-family: "OpenSans";
+    font-family: "OpenSans",sans-serif;
+    font-weight: 500;
 }
 .shop-setting, .member-login{
     margin: auto 30px auto 0;
@@ -57,6 +58,7 @@ a{
 }
 .main-menu{
     margin: auto 0;    
+    transform: translateX(-15px);
 }
 .list-menu{
     display: flex;
@@ -86,6 +88,7 @@ a{
     color: rgb(0, 0, 0);
     line-height: 0.733;
 }
+
 /* khối dùng chung */
 .container{
     max-width: 1140px;
@@ -148,12 +151,12 @@ a{
 .banner-block2 h4{
     font-size: 16px;
     color: rgb(97, 97, 97);
-    font-weight: 200;
+    font-weight: 500;
+    letter-spacing: 4px;
 }
 .banner2 h4{
     top: 88px;
     left: 57px;
-    font-weight: 200;
 }
 .banner2 h2{
     top: 109px;
@@ -173,7 +176,7 @@ a{
 }
 /* product */
 .products{
-    margin-top: 80px;
+    margin-top: 76px;
 }
 .title h5{
     font-size: 12px;
@@ -194,9 +197,10 @@ a{
     text-transform: uppercase;
     line-height: 1.2;
     text-align: left;
+    letter-spacing: 3px;
 }
-.title hr{
-    margin-top: 29px;
+.title .underline{
+    margin: 29px 0 50px 0;
     width: 5%;
     height: 1px;
     background-color: rgb(130, 98, 181);
@@ -233,21 +237,22 @@ a{
     background-color: rgb(255, 255, 255);
     border: none;
 }
-
-.name-product{
+a.name-product {
     font-size: 14px;
     font-family: "Montserrat";
-    color: rgb(0, 0, 0);
-    line-height: 1.857;
-    margin-top: 10px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 0;
 }
-.btn-add button:hover, .name-product:hover{
+.btn-add:hover, .name-product:hover{
     color: #8262b5;
 }
 /* sao đánh giá */
 div.stars {
-    /* width: 270px; */
+    margin-top: 15px;
     display: inline-block;
+    font-size: 14px;
   }
    
   input.star { display: none; }
@@ -256,13 +261,13 @@ div.stars {
     float: right;
     /* padding: 10px;
     font-size: 36px; */
-    color: #444;
+    color: #999999;
     transition: all .2s;
   }
    
-  input.star:checked ~ label.star:before {
+  input.star:checked ~ label.star {
     content: '\f005';
-    color: #FD4;
+    color: #f8ba04;
     transition: all .25s;
   }
    
@@ -280,7 +285,9 @@ div.stars {
     font-family: FontAwesome;
   }
   .price{
-    margin-bottom: 50px;
+    margin: 10px 0 50px 0;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
   }
   .price del{
     color: #999999;
@@ -307,7 +314,7 @@ div.stars {
 .title-blog h5, .title-blog h2{
     text-align: center;
 }
-.title-blog hr {
+.title-blog .underline {
     margin: 29px auto 50px auto;
 }
 .slider-blog{
@@ -352,6 +359,16 @@ div.stars {
 }
 .date-content h4 {
     padding-top: 5px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+.date-content .month{
+    font-weight: 400;
+}
+.date-content .day{
+    font-weight: bold;
 }
 .text-blog {
     margin-left: 20px;
@@ -362,6 +379,7 @@ div.stars {
     color: rgb(0, 0, 0);
     line-height: 1.225;
     margin-top: 20px;
+    font-weight: bold;
 }
 .text-blog p{
     font-size: 14px;
@@ -397,7 +415,6 @@ div.stars {
 /* footer */
 .footer{
     background-color: rgb(34, 34, 34);
-    color: #FFF;
 }
 .content-footer{
     display: flex;
@@ -408,28 +425,29 @@ div.stars {
     margin-top: 60px;
 }
 .about-us {
-    width: 19%;
+    width: 20.8%;
 }
 .navigation-footer {
-    width: 30%
+    width: 25%
 }
 .address {
     width: 20%;
 }
-.footer h2 {
+.footer h3 {
     padding-bottom: 30px;
     border-bottom: 1px solid #393939;
     font-size: 16px;
     font-family: "Montserrat";
     color: rgb(247, 247, 247);
     line-height: 1.35;
+    font-weight: 500;
 }
 .footer .about-us p, .menu-footer, .map {
     margin-top: 25px;
 }
 .footer .about-us p {
     font-size: 14px;
-    font-family: "OpenSans";
+    font-family: "OpenSans", sans-serif;
     color: rgb(136, 136, 136);
     line-height: 1.571;
 }
@@ -450,7 +468,7 @@ div.stars {
 }
 .menu-footer .column a{
     font-size: 14px;
-    font-family: "OpenSans";
+    font-family: "OpenSans", sans-serif;
     color: rgb(136, 136, 136);
     line-height: 2.143;
 }
@@ -467,7 +485,7 @@ div.stars {
 .address p {
     margin-left: 10px;
     font-size: 14px;
-    font-family: "OpenSans";
+    font-family: "OpenSans", sans-serif;
     color: rgb(136, 136, 136);
     line-height: 2.4;
 }
@@ -487,13 +505,19 @@ div.stars {
 }
 .copyright .text-copy {
     font-size: 14px;
-    font-family: "OpenSans";
+    /* font-family: "OpenSans"; */
     color: rgb(136, 136, 136);
     line-height: 1.8;
     display: flex;
 }
 .text-copy i {
     transform: translateY(5px);
+}
+.text-copy h5, .text-copy a{
+    font-size: 14px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(136, 136, 136);
+    line-height: 1.8;
 }
 .text-copy .fa-copyright{
     margin-right: 5px;
@@ -504,16 +528,18 @@ div.stars {
 }
 .text-copy a{
   color: #FFF;
-  font-weight: 100;
+  font-weight: bold;
   margin-left: 5px;
-  transform: translateY(-2px);
 }
 .payment {
     display: flex;
 }
 .payment .fa-brands{
     padding: 5px;
-    color: #888888;
+    font-size: 20px;
+    font-family: "FontAwesome";
+    color: rgb(136, 136, 136);
+    line-height: 1.1;
   }
   .payment .fa-brands:hover{
     color: #FFF;
@@ -598,4 +624,100 @@ div.stars {
 #top-menu-mobie-input:checked ~ .top-main-menu-mobie{
     display: block;
 }
-
+/* rỏ hàng */
+.shopping-cart{
+    margin: auto 0;
+}
+.content-shopping-cart{
+    position: absolute;
+    display: none;
+    right: 50px;
+    width: 320px;
+    background-color:#FFF;
+    max-height: 400px;
+    z-index: 1;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 1px #ccc;
+    animation: fadeIn ease-in 0.25s;
+}
+ul.shopping-list {
+    list-style-type: none;
+}
+li.shopping-item {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    align-items: center;
+}
+.shopping-item-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item-content-img img{
+    width: 60px;
+    height: 60px;
+}
+.item-content-information {
+    display: flex;
+    margin-top: 10px;
+}
+.information-product-quantity {
+    display: flex;
+}
+input.btn-input-quantity {
+    width: 50px;
+    text-align: center;
+}
+h4.information-product-price {
+    margin-left: 30px;
+}
+button.shopping-item-delete {
+    font-size: 20px;
+    margin: auto 0;
+    width: 25px;
+    height: 30px;
+    border: none;
+}
+.shopping-cart:hover .content-shopping-cart{
+    display: block;
+}
+.shopping-item-delete:hover{
+    color: #fff;
+    background-color: rgb(130, 98, 181);
+    cursor: pointer;
+}
+li.shopping-item:hover {
+    background-color: #ddd;
+}
+.pe-7s-cart{
+    margin: auto 30px auto 0;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    line-height: 0.733;
+}
+/* ô search */
+.search{
+    display: flex;
+}
+.container-search {
+    margin-right: 10px;
+    margin-left: -10px;
+}
+.container-search .input-search{
+    border-radius: 5px;
+    display: none;
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+}
+button.btn-search {
+    border: none;
+    background-color: #FFF;
+}
+.show-search .list-menu li:not(:last-child){
+    display: none;
+}
+.show-search .list-menu .input-search{
+    display: block;
+}
