@@ -9,6 +9,10 @@
     .logo h2 {
         font-size: 15px;
     }
+    .main-menu {
+        margin: auto 0;
+        transform: translateX(0px);
+    }
     .item-menu a {
         margin-right: 18px;
         font-size: 12px;
@@ -26,13 +30,17 @@
         font-size: 24px;
     }
     .banner a {
-        font-size: 10px;
+        font-size: 9px;
+        padding: 10px 16px;
     }
     .banner1 a {
         top: 290px;
-        left: 430px;
+        left: 435px;
     }
     .banner-block2 h4 ,.banner-block2 h2{
+        font-size: 12px;
+    }
+    .banner-block2 h2{
         font-size: 15px;
     }
     .banner2 h4 {
@@ -51,11 +59,11 @@
         left: 30px;
     }
     .banner3 h2 {
-        top: 120px;
+        top: 115px;
         left: 30px;
     }
     .banner3 a {
-        top: 150px;
+        top: 145px;
         left: 30px;
     }
 /* product */
@@ -64,17 +72,25 @@
         padding: 4px 10px;
         top: 213px;
     }
-    
+    div.stars {
+        margin-top: 10px;
+    }
 /* blog */
+    .blog {
+        height: 655px;
+    }
     .text-blog h3 {
         font-size: 15px;
     }
 /* footer */
     .about-us {
-        width: 21%;
+        width: 22%;
     }
     .about-us .icon-blog {
         margin-top: 27px;
+    }
+    .navigation-footer {
+        width: 30%;
     }
     .address {
         width: 21%;
@@ -113,21 +129,25 @@
     }
     .banner1 h4 {
         top: 195px;
-        left: 205px;
-        font-size: 18px;
+        left: 200px;
+        font-size: 19px;
     }
     .banner1 a {
-        top: 228px;
-        left: 323px;
+        top: 230px;
+        left: 330px;
     }
     .banner-block2 {
         margin-left: 25px;
     }
-    .banner-block2 h4 ,.banner-block2 h2{
-        font-size: 13px;
+    .banner-block2 h4{
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+    .banner-block2 h2{
+        font-size: 12px;
     }
     .banner2 h4 {
-        top: 50px;
+        top: 55px;
         left: 33px;
     }
     .banner2 h2 {
@@ -142,11 +162,11 @@
         left: 25px;
     }
     .banner3 h2 {
-        top: 92px;
+        top: 90px;
         left: 25px;
     }
     .banner3 a {
-        top: 120px;
+        top: 115px;
         left: 25px;
     }
     /* product */
@@ -175,29 +195,45 @@
         font-size: 13px;
     }
     div.stars {
-        font-size: 14px;
+        font-size: 13px;
+        margin-top: 10px;
     }
     /* blog */
+    .blog {
+        height: 635px;
+    }
     .date {
         font-size: 10px;
         left: 10px;
         top: 10px;
-        width: 52px;
-        height: 52px;
+        width: 50px;
+        height: 50px;
     }
     .date-content{
         width: 40px;
         height: 40px;
     }
+    .date-content h4 {
+        font-size: 10px;
+    }
+    .text-blog a{
+        font-size: 16px;
+    }
     /* footer */
     .about-us {
-        width: 27%;
+        width: 28%;
     }
     .about-us .icon-blog {
         margin-top: 27px;
     }
+    .navigation-footer {
+        width: 33%;
+    }
+    .column.c2 {
+        margin-right: 0px;
+    }
     .address {
-        width: 26%;
+        width: 25%;
     }
 
 }
@@ -240,24 +276,25 @@
         font-size: 23px;
     }
     .container {
-        max-width: 400px;
+        max-width: 360px;
     }
     /* banner */
     .banner {
         display: block;
     }
     .banner1 h4 {
-        top: 175px;
-        left: 170px;
-        font-size: 18px;
+        top: 155px;
+        left: 147px;
+        font-size: 16px;
     }
     .banner a button {
         font-size: 7px;
     }
     .banner1 a {
-        top: 205px;
-        left: 270px;
-        font-size: 12px;
+        top: 185px;
+        left: 245px;
+        font-size: 10px;
+        padding: 8px 10px;
     }
     .banner2 {
         margin-top: 10px;
@@ -290,6 +327,8 @@
     .banner3 a {
         top: 185px;
         left: 50px;
+        font-size: 14px;
+        padding: 8px 10px;
     }
     /* product */
     .products {
@@ -312,7 +351,9 @@
         margin-left: 10px;
     }
     .item-product .btn-add {
-        top: 200px;
+        top: 180px;
+        padding: 4px 5px;
+        font-size: 10px;
     }
     .btn-add button {
         font-size: 12px;
@@ -327,7 +368,7 @@
     /* blog */
     .blog {
         margin-top: 0px;
-        height: 650px;
+        height: 625px;
     }
     .content-blog {
         padding-top: 35px;
@@ -341,7 +382,7 @@
     .about-us, .navigation-footer, .address {
         width: 100%;
         margin-top: 0;
-        padding-top: 10px;
+        padding-top: 5px;
     }
     .footer h3 {
         padding-bottom: 10px;
@@ -363,7 +404,9 @@
     }
     .payment .fa-brands {
         padding: 0;
-        margin-right: 10px;
+        margin-right: 5px;
+        transform: translateY(0px);
+        font-size: 15px;
     }
 }
 @media only screen and (max-width: 424px) and (min-width: 320px){
@@ -417,12 +460,13 @@
         left: 120px;
         font-size: 14px;
     }
-    .banner a button {
-        font-size: 7px;
+    .banner a {
+        font-size: 14px;
+        padding: 8px 12px;
     }
     .banner1 a {
         top: 155px;
-        left: 186px;
+        left: 190px;
         font-size: 10px;
     }
     .banner2 {
@@ -495,22 +539,12 @@
     /* blog */
     .blog {
         margin-top: 0px;
-        /* height: 650px; */
-        /* display: none; */
-    
+        height: 590px;
     }
     .content-blog {
         padding-top: 35px;
     }
 
-
-    /* .slider-blog .list-post {
-        display: flex;
-    }
-    .list-post .item {
-        width: 100% !important;
-        margin-left: 0px;
-    } */
     .content-footer {
         display: block; 
         justify-content: normal; 
@@ -539,12 +573,12 @@
     .copyright .text-copy {
         margin: 10px 0;
     }
+    .text-copy h5, .text-copy a {
+        font-size: 12px;
+    }
     .payment .fa-brands {
         padding: 0;
         margin-right: 10px;
-    }
-    .payment .fa-brands {
-        padding: 0px;
-    }
-    
+        font-size: 15px;
+    }  
 }

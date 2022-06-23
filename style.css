@@ -32,7 +32,7 @@ a{
     font-weight: 500;
 }
 .shop-setting, .member-login{
-    margin: auto 30px auto 0;
+    margin: auto 35px auto 0;
 }
 .navigation{
     width: 100%;
@@ -58,7 +58,7 @@ a{
 }
 .main-menu{
     margin: auto 0;    
-    transform: translateX(-15px);
+    transform: translateX(-59px);
 }
 .list-menu{
     display: flex;
@@ -82,7 +82,7 @@ a{
     display: flex;
 }
 .cart a{
-    margin: auto 30px auto 0;
+    margin: auto 28px auto 0;
     font-size: 30px;
     font-family: "Pe";
     color: rgb(0, 0, 0);
@@ -111,7 +111,7 @@ a{
 }
 .banner1 h4{
     top: 320px;
-    left: 345px;
+    left: 339px;
     font-size: 30px;
     font-family: "Pacifico";
     color: rgb(0, 0, 0);
@@ -124,13 +124,12 @@ a{
     line-height: 1.2;
     text-align: center;
     background-color: rgb(130, 98, 181);
-    padding: 10px 14px;
+    padding: 11px 18px;
     border: none;
 }
 .banner1 a{
-    top: 365px;
-    left: 550px;
-
+    top: 367px;
+    left: 548px;
 }
 .banner-block2{
     margin-left: 30px;
@@ -152,14 +151,14 @@ a{
     font-size: 16px;
     color: rgb(97, 97, 97);
     font-weight: 500;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 .banner2 h4{
-    top: 88px;
+    top: 85px;
     left: 57px;
 }
 .banner2 h2{
-    top: 109px;
+    top: 105px;
     left: 57px;
 }
 .banner3 h4{
@@ -167,19 +166,19 @@ a{
     left: 40px;
 }
 .banner3 h2{
-    top: 143px;
+    top: 140px;
     left: 40px;
 }
 .banner3 a{
-    top: 175px;
+    top: 180px;
     left: 40px;
 }
 /* product */
 .products{
-    margin-top: 76px;
+    margin-top: 70px;
 }
 .title h5{
-    font-size: 12px;
+    font-size: 13px;
     font-family: "Montserrat";
     color: rgb(130, 98, 181);
     font-weight: bold;
@@ -189,8 +188,8 @@ a{
     letter-spacing: 5px;
 }
 .title h2{
-    margin-top: 20px;
-    font-size: 24px;
+    margin-top: 12px;
+    font-size: 23px;
     font-family: "Montserrat";
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -200,8 +199,8 @@ a{
     letter-spacing: 3px;
 }
 .title .underline{
-    margin: 29px 0 50px 0;
-    width: 5%;
+    margin: 25px 0 50px 0;
+    width: 45px;
     height: 1px;
     background-color: rgb(130, 98, 181);
 }
@@ -226,23 +225,24 @@ a{
 }
 .item-product .btn-add{
     position: absolute;
-    top: 280px;
-    left: 5px;
+    top: 279px;
+    left: 7px;
     font-size: 12px;
     font-family: "Montserrat";
     color: rgb(66, 66, 66);
     text-transform: uppercase;
+    font-weight: 600;
     line-height: 2.167;
     padding: 6px 15px;
     background-color: rgb(255, 255, 255);
     border: none;
 }
-a.name-product {
+.name-product {
     font-size: 14px;
     font-family: "Montserrat";
     color: #000;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-right: 0;
 }
 .btn-add:hover, .name-product:hover{
@@ -250,9 +250,9 @@ a.name-product {
 }
 /* sao đánh giá */
 div.stars {
-    margin-top: 15px;
+    margin-top: 13px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 12px;
   }
    
   input.star { display: none; }
@@ -285,9 +285,9 @@ div.stars {
     font-family: FontAwesome;
   }
   .price{
-    margin: 10px 0 50px 0;
+    margin: 5px 0 45px 0;
     font-family: "OpenSans", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
   }
   .price del{
     color: #999999;
@@ -302,10 +302,10 @@ div.stars {
     background-image: url(./asset/image/bg_blog.jpg);
     background-size: cover;
     margin-top: 30px;
-    height: 705px;
+    height: 707px;
 }
 .content-blog {
-    padding-top: 80px;
+    padding-top: 76px;
 }
 .title-blog{
     margin: 0 auto;
@@ -313,9 +313,10 @@ div.stars {
 }
 .title-blog h5, .title-blog h2{
     text-align: center;
+    margin-left: 6px;
 }
 .title-blog .underline {
-    margin: 29px auto 50px auto;
+    margin: 24px auto 50px auto;
 }
 .slider-blog{
 
@@ -343,7 +344,7 @@ div.stars {
     line-height: 1.2;
     position: absolute;
     left: 20px;
-    top: 22px;
+    top: 21px;
     background-color: rgb(161, 209, 221);
     width: 60px;
     height: 60px;
@@ -374,11 +375,11 @@ div.stars {
     margin-left: 20px;
 }
 .text-blog a{
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Montserrat";
     color: rgb(0, 0, 0);
     line-height: 1.225;
-    margin-top: 20px;
+    margin-top: 17px;
     font-weight: bold;
 }
 .text-blog p{
@@ -386,12 +387,13 @@ div.stars {
     font-family: "OpenSans", sans-serif;
     color: rgb(66, 66, 66);
     line-height: 1.571;
-    margin: 20px 0;
+    margin: 18px 0;
 }
 .item .info {
     border-top: 1px solid #ededed;
-    padding: 20px;
+    padding: 15px 20px;
     display: flex;
+    margin-top: -3px;
 }
 .commnent, .like{
     display: flex;
@@ -419,7 +421,7 @@ div.stars {
 .content-footer{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 .about-us, .navigation-footer, .address {
     margin-top: 60px;
@@ -428,22 +430,22 @@ div.stars {
     width: 20.8%;
 }
 .navigation-footer {
-    width: 25%
+    width: 29.4%;
 }
 .address {
-    width: 20%;
+    width: 23%;
 }
 .footer h3 {
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #393939;
-    font-size: 16px;
+    font-size: 17px;
     font-family: "Montserrat";
     color: rgb(247, 247, 247);
     line-height: 1.35;
     font-weight: 500;
 }
 .footer .about-us p, .menu-footer, .map {
-    margin-top: 25px;
+    margin-top: 23px;
 }
 .footer .about-us p {
     font-size: 14px;
@@ -451,13 +453,12 @@ div.stars {
     color: rgb(136, 136, 136);
     line-height: 1.571;
 }
-
 .about-us .icon-blog{
     display: flex;
-    margin-top: 50px;
+    margin-top: 46px;
 }
 .about-us .icon-blog a{
-    margin-right: 30px;
+    margin-right: 34px;
 }
 .navigation-footer .menu-footer{
     display: flex;
@@ -465,6 +466,10 @@ div.stars {
 }
 .menu-footer .column{
     list-style-type: none;
+    margin-top: -5px;
+}
+.column.c2 {
+    margin-right: 20px;
 }
 .menu-footer .column a{
     font-size: 14px;
@@ -481,9 +486,10 @@ div.stars {
 }
 .map, .phone, .mail {
     display: flex;
+    transform: translateY(-5px);
 }
 .address p {
-    margin-left: 10px;
+    margin-left: 16px;
     font-size: 14px;
     font-family: "OpenSans", sans-serif;
     color: rgb(136, 136, 136);
@@ -504,7 +510,7 @@ div.stars {
     align-items: center;
 }
 .copyright .text-copy {
-    font-size: 14px;
+    font-size: 13px;
     /* font-family: "OpenSans"; */
     color: rgb(136, 136, 136);
     line-height: 1.8;
@@ -518,13 +524,14 @@ div.stars {
     font-family: "OpenSans", sans-serif;
     color: rgb(136, 136, 136);
     line-height: 1.8;
+    transform: translateX(-2px);
 }
 .text-copy .fa-copyright{
     margin-right: 5px;
 }
 .text-copy .fa-heart{
   color: red;
-  margin: 0 5px;
+  margin: 0 6px;
 }
 .text-copy a{
   color: #FFF;
@@ -535,11 +542,12 @@ div.stars {
     display: flex;
 }
 .payment .fa-brands{
-    padding: 5px;
     font-size: 20px;
     font-family: "FontAwesome";
     color: rgb(136, 136, 136);
     line-height: 1.1;
+    margin: 0px 4px;
+    transform: translateY(-5px);
   }
   .payment .fa-brands:hover{
     color: #FFF;
@@ -643,6 +651,9 @@ div.stars {
 ul.shopping-list {
     list-style-type: none;
 }
+.item-content-product {
+    margin-left: 10px;
+}
 li.shopping-item {
     display: flex;
     padding: 10px;
@@ -689,12 +700,6 @@ button.shopping-item-delete {
 }
 li.shopping-item:hover {
     background-color: #ddd;
-}
-.pe-7s-cart{
-    margin: auto 30px auto 0;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    line-height: 0.733;
 }
 /* ô search */
 .search{
