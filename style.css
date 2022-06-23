@@ -237,7 +237,7 @@ a{
     background-color: rgb(255, 255, 255);
     border: none;
 }
-.name-product {
+a.name-product {
     font-size: 14px;
     font-family: "Montserrat";
     color: #000;
@@ -382,6 +382,9 @@ div.stars {
     margin-top: 17px;
     font-weight: bold;
 }
+.text-blog a:hover {
+    color: #8262b5;
+}
 .text-blog p{
     font-size: 14px;
     font-family: "OpenSans", sans-serif;
@@ -478,7 +481,6 @@ div.stars {
     line-height: 2.143;
 }
 .menu-footer .column a:hover{
-    
     text-decoration: underline;
 }
 .footer a:hover{
@@ -492,11 +494,12 @@ div.stars {
     margin-left: 16px;
     font-size: 14px;
     font-family: "OpenSans", sans-serif;
-    color: rgb(136, 136, 136);
     line-height: 2.4;
+    transform: translateY(-10px);
 }
 .address a{
     transform: translateY(10px);
+    color: rgb(136, 136, 136);
 }
 .footer .copyright {
     border-top: 1px solid #393939;
@@ -589,7 +592,7 @@ div.stars {
     padding: 10px;
     border: 1px solid #ccc;
   }
-  .main-menu-mobie li:hover{
+  .menu-mobie-list li:not(:first-child):hover{
     background-color: rgb(40, 207, 207);
   }
   .main-menu-mobie a{
@@ -725,4 +728,23 @@ button.btn-search {
 }
 .show-search .list-menu .input-search{
     display: block;
+}
+/* search mobile */
+.search-mobile{
+}
+.container-search-mobile{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px;
+}
+.input-search-mobile{
+    border: none;
+    padding: 0 5px;    
+    width: 100%;
+}
+.btn-search-mobile{
+    border: none;
+    background-color: #FFF;
+    margin-left: 10px;
 }

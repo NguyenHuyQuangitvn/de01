@@ -408,6 +408,9 @@
         transform: translateY(0px);
         font-size: 15px;
     }
+    .main-menu-mobie {
+        width: 40%;
+    } 
 }
 @media only screen and (max-width: 424px) and (min-width: 320px){
     /* giống size 425 */
@@ -580,5 +583,8 @@
         padding: 0;
         margin-right: 10px;
         font-size: 15px;
+    }
+    .main-menu-mobie {
+        width: 50%;
     }  
 }
