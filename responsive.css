@@ -452,7 +452,7 @@
         font-size: 23px;
     }
     .container {
-        max-width: 300px;
+        max-width: 290px;
     }
    /* banner */
     .banner {
@@ -525,7 +525,7 @@
         margin-left: 10px;
     }
     .item-product .btn-add {
-        top: 147px;
+        top: 142px;
         font-size: 8px;
         padding: 5px 5px;
     }
@@ -577,7 +577,7 @@
         margin: 10px 0;
     }
     .text-copy h5, .text-copy a {
-        font-size: 12px;
+        font-size: 11px;
     }
     .payment .fa-brands {
         padding: 0;

@@ -579,6 +579,7 @@ div.stars {
     background-color: #FFF;
     transform: translateX(100%);
     z-index: 1;
+    transition: 1s;
   }
   .main-menu-mobie .close-menu{
     margin: 10px 210px 10px 10px;
