@@ -27,8 +27,24 @@ $(document).ready(function(){
       dotClass:'slick-dots',
       
       responsive: [
+        // {
+        //   breakpoint: 766,
+        //   settings: {
+        //     nav: false,
+        //     dots:true,
+        //     arrows: false,
+        //     nextArrow: false,
+        //     autoplay: true,
+        //     autoplaySpeed :1000,
+        //     slidesToShow: 2,
+        //     slidesToScroll: 1,
+        //     infinite:true,
+        //     speed:1000,
+        //     dotClass:'slick-dots',
+        //   }
+        // },
           {
-            breakpoint: 432,
+            breakpoint: 768,
             settings: {
               nav: false,
               dots:true,

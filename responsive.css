@@ -17,9 +17,9 @@
         margin-right: 18px;
         font-size: 12px;
     }
-    .cart a {
+    /* .cart a {
         font-size: 20px;
-    }
+    } */
     .container {
         max-width: 900px;
     }
@@ -273,7 +273,7 @@
     }
     .navigation .cart a {
         margin: auto 25px auto 0;
-        font-size: 23px;
+        /* font-size: 23px; */
     }
     .container {
         max-width: 360px;
@@ -449,7 +449,24 @@
     }
     .navigation .cart a {
         margin: auto 25px auto 0;
-        font-size: 23px;
+        /* font-size: 23px; */
+        line-height: 1.2;
+    }
+    .content-shopping-cart {
+        right: 75px;
+        width: 225px;
+        top: 102px;
+    }
+    .item-content-information {
+        display: block;
+        margin-top: 5px;
+    }
+    input.btn-input-quantity {
+        width: 30px;
+    }
+    h4.information-product-price {
+        margin-top: 5px;
+        margin-left: 5px;
     }
     .container {
         max-width: 290px;

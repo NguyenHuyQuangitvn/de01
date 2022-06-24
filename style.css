@@ -28,7 +28,7 @@ a{
 .top-menu h4{
     margin-left: 5px;
     line-height: 1.2;
-    font-family: "OpenSans",sans-serif;
+    font-family: "Open Sans";
     font-weight: 500;
 }
 .shop-setting, .member-login{
@@ -178,7 +178,7 @@ a{
     margin-top: 70px;
 }
 .title h5{
-    font-size: 13px;
+    font-size: 12px;
     font-family: "Montserrat";
     color: rgb(130, 98, 181);
     font-weight: bold;
@@ -189,7 +189,7 @@ a{
 }
 .title h2{
     margin-top: 12px;
-    font-size: 23px;
+    font-size: 24px;
     font-family: "Montserrat";
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -286,7 +286,7 @@ div.stars {
   }
   .price{
     margin: 5px 0 45px 0;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans";
     font-size: 16px;
   }
   .price del{
@@ -375,7 +375,7 @@ div.stars {
     margin-left: 20px;
 }
 .text-blog a{
-    font-size: 15px;
+    font-size: 16px;
     font-family: "Montserrat";
     color: rgb(0, 0, 0);
     line-height: 1.225;
@@ -387,7 +387,7 @@ div.stars {
 }
 .text-blog p{
     font-size: 14px;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans";
     color: rgb(66, 66, 66);
     line-height: 1.571;
     margin: 18px 0;
@@ -413,7 +413,7 @@ div.stars {
 }
 .info h6{
     font-size: 14px;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans";
     line-height: 1.571;
     font-weight: 400;
 }
@@ -441,7 +441,7 @@ div.stars {
 .footer h3 {
     padding-bottom: 25px;
     border-bottom: 1px solid #393939;
-    font-size: 17px;
+    font-size: 16px;
     font-family: "Montserrat";
     color: rgb(247, 247, 247);
     line-height: 1.35;
@@ -452,7 +452,7 @@ div.stars {
 }
 .footer .about-us p {
     font-size: 14px;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans";
     color: rgb(136, 136, 136);
     line-height: 1.571;
 }
@@ -476,7 +476,7 @@ div.stars {
 }
 .menu-footer .column a{
     font-size: 14px;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans";
     color: rgb(136, 136, 136);
     line-height: 2.143;
 }
@@ -493,7 +493,7 @@ div.stars {
 .address p {
     margin-left: 16px;
     font-size: 14px;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans";
     line-height: 2.4;
     transform: translateY(-10px);
 }
@@ -524,7 +524,7 @@ div.stars {
 }
 .text-copy h5, .text-copy a{
     font-size: 14px;
-    font-family: "OpenSans", sans-serif;
+    font-family: "Open Sans";
     color: rgb(136, 136, 136);
     line-height: 1.8;
     transform: translateX(-2px);
@@ -552,9 +552,9 @@ div.stars {
     margin: 0px 4px;
     transform: translateY(-5px);
   }
-  .payment .fa-brands:hover{
+  /* .payment .fa-brands:hover{
     color: #FFF;
-  }
+  } */
 /* nút menu nav */
 .navigation .menu-mobile{
     display: none;
