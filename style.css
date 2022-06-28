@@ -724,6 +724,9 @@ button.btn-search {
     border: none;
     background-color: #FFF;
 }
+button.btn-search:hover {
+    cursor: pointer;
+}
 .show-search .list-menu li:not(:last-child){
     display: none;
 }
