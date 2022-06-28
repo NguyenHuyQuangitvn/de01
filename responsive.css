@@ -24,8 +24,25 @@
         max-width: 900px;
     }
 /* banner */
+    .banner1 {
+        width: 590px;
+        height: 436px;
+    }
+    .banner1 img {
+        width: 48%;
+    }
+    .banner1 h2 {
+        top: 195px;
+        left: 220px;
+        font-size: 62px;
+    }
+    .banner1 h3 {
+        top: 240px;
+        left: 320px;
+        font-size: 38px;
+    }
     .banner1 h4 {
-        top: 253px;
+        top: 255px;
         left: 262px;
         font-size: 24px;
     }
@@ -123,17 +140,34 @@
     .container {
         max-width: 700px;
     }
+    .banner1 {
+        width: 460px;
+        height: 335px;
+    }
+    .banner1 img {
+        width: 46.6%;
+    }
+    .banner1 h2 {
+        top: 150px;
+        left: 165px;
+        font-size: 50px;
+    }
+    .banner1 h3 {
+        top: 190px;
+        left: 240px;
+        font-size: 32px;
+    }
     .banner a {
         font-size: 10px;    
         padding: 9px 10px;   
     }
     .banner1 h4 {
-        top: 195px;
+        top: 205px;
         left: 200px;
         font-size: 19px;
     }
     .banner1 a {
-        top: 230px;
+        top: 235px;
         left: 330px;
     }
     .banner-block2 {
@@ -282,16 +316,33 @@
     .banner {
         display: block;
     }
+    .banner1 {
+        width: 360px;
+        height: 268px;
+    }
+    .banner1 img {
+        width: 46.6%;
+    }
+    .banner1 h2 {
+        top: 122px;
+        left: 127px;
+        font-size: 40px;
+    }
+    .banner1 h3 {
+        top: 153px;
+        left: 185px;
+        font-size: 26px;
+    }
     .banner1 h4 {
-        top: 155px;
-        left: 147px;
+        top: 165px;
+        left: 150px;
         font-size: 16px;
     }
     .banner a button {
         font-size: 7px;
     }
     .banner1 a {
-        top: 185px;
+        top: 190px;
         left: 245px;
         font-size: 10px;
         padding: 8px 10px;
@@ -303,14 +354,17 @@
         margin-left: 0px;
     }
     .banner-block2 h4 ,.banner-block2 h2{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .banner-block2 h4 {
+        font-size: 15px;
     }
     .banner2 h4 {
         top: 90px;
         left: 70px;
     }
     .banner2 h2 {
-        top: 120px;
+        top: 115px;
         left: 70px;
     }
     .banner-block2 .banner3 {
@@ -321,7 +375,7 @@
         left: 50px;
     }
     .banner3 h2 {
-        top: 150px;
+        top: 145px;
         left: 50px;
     }
     .banner3 a {
@@ -475,8 +529,25 @@
     .banner {
         display: block;
     }
-    .banner1 h4 {
+    .banner1 {
+        width: 290px;
+        height: 220px;
+    }
+    .banner1 img {
+        width: 46.6%;
+    }
+    .banner1 h2 {
+        top: 105px;
+        left: 100px;
+        font-size: 35px;
+    }
+    .banner1 h3 {
         top: 130px;
+        left: 150px;
+        font-size: 23px;
+    }
+    .banner1 h4 {
+        top: 140px;
         left: 120px;
         font-size: 14px;
     }
@@ -485,7 +556,7 @@
         padding: 8px 12px;
     }
     .banner1 a {
-        top: 155px;
+        top: 165px;
         left: 190px;
         font-size: 10px;
     }
@@ -495,15 +566,18 @@
     .banner-block2 {
         margin-left: 0px;
     }
-    .banner-block2 h4, .banner-block2 h2 {
-        font-size: 18px;
+    .banner-block2 h2 {
+        font-size: 16px;
+    }
+    .banner-block2 h4 {
+        font-size: 13px;
     }
     .banner2 h4 {
         top: 70px;
         left: 45px;
     }
     .banner2 h2 {
-        top: 95px;
+        top: 90px;
         left: 45px;
     }
     .banner-block2 .banner3 {
@@ -514,11 +588,11 @@
         left: 40px;
     }
     .banner3 h2 {
-        top: 125px;
+        top: 120px;
         left: 40px;
     }
     .banner3 a {
-        top: 165px;
+        top: 155px;
         left: 40px;
     }
     /* product */

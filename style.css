@@ -109,6 +109,39 @@ a{
 .banner h4,.banner h2, .banner a{
     position: absolute;
 }
+.banner1 {
+    width: 750px;
+    height: 560px;
+    background-color: #eeeeee;
+}
+.banner1 img{
+    position: absolute;
+    margin-top: 24px;
+    width: 49.2%;
+    z-index: 2;
+}
+.banner1 h2 {
+    top: 240px;
+    left: 275px;
+    font-size: 80px;
+    font-family: "Montserrat";
+    color: rgb(225, 225, 225);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.5;
+    z-index: 1;
+}
+.banner1 h3 {
+    top: 297px;
+    left: 400px;
+    position: absolute;
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: rgb(225, 225, 225);
+    text-transform: uppercase;
+    line-height: 0.5;
+    font-weight: 400;
+}
 .banner1 h4{
     top: 320px;
     left: 339px;
